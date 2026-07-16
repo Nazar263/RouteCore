@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "RouteCore — Telecom Automation Infrastructure",
+    "description": "RouteCore — we create and maintain technology products and automation systems. Join the team."
+  },
+  "header": {
+    "about": "About",
+    "tech": "Technologies",
+    "responsibilities": "Responsibilities",
+    "requirements": "Requirements",
+    "conditions": "Conditions",
+    "stages": "Stages",
+    "faq": "FAQ",
+    "apply": "Leave Application"
+  },
+  "hero": {
+    "badge": "We're hiring",
+    "title": "BAS Automation",
+    "titleAccent": "Engineer",
+    "subtitle": "Build automations for testing and verifying various services",
+    "salary": "Competitive salary",
+    "salaryValue": "Flexible payment system",
+    "apply": "Leave Application",
+    "remote": "Remote Work",
+    "fulltime": "Full-time"
+  },
+  "benefits": {
+    "title": "Benefits",
+    "remote": {
+      "title": "Remote Work",
+      "desc": "Work from anywhere in the world"
+    },
+    "salary": {
+      "title": "Competitive Salary",
+      "desc": "Flexible payment system"
+    },
+    "team": {
+      "title": "Strong Team",
+      "desc": "Experienced specialists and support"
+    },
+    "projects": {
+      "title": "Interesting Projects",
+      "desc": "Testing and verifying various services"
+    },
+    "growth": {
+      "title": "Professional Growth",
+      "desc": "Develop and grow with us"
+    },
+    "reliability": {
+      "title": "Reliability",
+      "desc": "Stability and long-term cooperation"
+    }
+  },
+  "about": {
+    "title": "About Company",
+    "company": "RouteCore",
+    "desc": "We create and maintain our own technology products and automation systems. Our solutions are used for testing and verifying various online services.",
+    "desc2": "We are constantly developing and looking for talented specialists who want to solve complex tasks and grow with us.",
+    "stat_specialists": "specialists\nin team",
+    "stat_projects": "projects\ncompleted",
+    "stat_countries": "countries\nin team",
+    "stat_support": "support and project\ndevelopment"
+  },
+  "tech": {
+    "title": "Technologies we work with"
+  },
+  "responsibilities": {
+    "title": "Responsibilities",
+    "items": [
+      "Development of automation scenarios",
+      "Support of existing solutions",
+      "Working with API",
+      "Working with HTTP/HTTPS",
+      "Automation of web services",
+      "Implementation of new solutions"
+    ]
+  },
+  "requirements": {
+    "title": "Requirements",
+    "items": [
+      "Experience with ZennoPoster",
+      "Understanding of API",
+      "Knowledge of network protocols",
+      "Experience with Proxy",
+      "Experience with cloud services",
+      "Ability to independently solve technical tasks"
+    ]
+  },
+  "conditions": {
+    "title": "Conditions",
+    "items": [
+      "Fully remote work",
+      "Flexible schedule",
+      "Competitive salary",
+      "Strong team",
+      "Interesting technical projects"
+    ]
+  },
+  "stages": {
+    "title": "Hiring Stages",
+    "items": [
+      {
+        "step": "01",
+        "title": "Application",
+        "desc": "Fill out the form and submit your application"
+      },
+      {
+        "step": "02",
+        "title": "Initial Talk",
+        "desc": "Discuss your experience and expectations"
+      },
+      {
+        "step": "03",
+        "title": "Technical Task",
+        "desc": "Complete a test assignment"
+      },
+      {
+        "step": "04",
+        "title": "Offer",
+        "desc": "Receive a job offer"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How is the salary formed?",
+        "a": "Salary depends on your experience and skills. We offer a competitive salary."
+      },
+      {
+        "q": "What is the work schedule?",
+        "a": "We offer a flexible schedule. You determine the convenient time for work yourself."
+      },
+      {
+        "q": "Is work experience required?",
+        "a": "Yes, we are looking for specialists with experience in automation and web technologies."
+      },
+      {
+        "q": "How does the hiring process work?",
+        "a": "The process consists of 4 stages: application, conversation, technical task, and offer."
+      },
+      {
+        "q": "Is the work remote?",
+        "a": "Yes, the work is fully remote. You can work from anywhere in the world."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Join the Team",
+    "subtitle": "Become part of RouteCore and grow with us",
+    "apply": "Leave Application"
+  },
+  "footer": {
+    "copyright": "RouteCore. All rights reserved.",
+    "tg": "Telegram"
+  }
+}
