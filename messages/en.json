@@ -54,8 +54,9 @@
   "about": {
     "title": "About Company",
     "company": "RouteCore",
-    "desc": "We create and maintain our own technology products and automation systems. Our solutions are used for testing and verifying various online services.",
-    "desc2": "We are constantly developing and looking for talented specialists who want to solve complex tasks and grow with us.",
+    "desc": "We work in the telecommunications sector and specialize in SMS infrastructure testing, message delivery quality assurance, and analysis of various digital services.",
+    "desc2": "As part of our activities, we conduct technical testing of services for correct SMS message processing, delivery stability, message transmission speed, and interaction with security systems, including anti-fraud mechanisms.",
+    "desc3": "Our goal is to assess how effectively services receive, process, and protect SMS traffic, as well as identify potential technical limitations, delivery errors, or specific features of security systems.",
     "stat_specialists": "specialists\nin team",
     "stat_projects": "projects\ncompleted",
     "stat_countries": "countries\nin team",

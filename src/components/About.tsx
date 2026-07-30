@@ -48,6 +48,7 @@ export default function About() {
           >
             <p className="text-foreground/80 leading-[1.8] text-base sm:text-lg">{t("desc")}</p>
             <p className="text-foreground/80 leading-[1.8] text-base sm:text-lg">{t("desc2")}</p>
+            <p className="text-foreground/80 leading-[1.8] text-base sm:text-lg">{t("desc3")}</p>
 
             <div className="pt-2 sm:pt-4">
               <div className="flex items-center gap-3">
