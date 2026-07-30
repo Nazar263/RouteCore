@@ -17,9 +17,9 @@ export default function GrowthChart() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
-  const width = 400;
-  const height = 520;
-  const padding = { top: 20, right: 20, bottom: 40, left: 10 };
+  const width = 800;
+  const height = 350;
+  const padding = { top: 30, right: 30, bottom: 40, left: 10 };
   const chartW = width - padding.left - padding.right;
   const chartH = height - padding.top - padding.bottom;
 
@@ -39,7 +39,6 @@ export default function GrowthChart() {
       <svg
         viewBox={`0 0 ${width} ${height}`}
         className="w-full h-auto"
-        style={{ maxHeight: "520px" }}
       >
         <defs>
           <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -113,14 +112,14 @@ export default function GrowthChart() {
             {/* Value label */}
             <motion.text
               x={p.x}
-              y={p.y - 12}
+              y={p.y - 14}
               textAnchor="middle"
               fill="#00d4aa"
-              fontSize="11"
+              fontSize="12"
               fontWeight="600"
               fontFamily="var(--font-space), monospace"
               initial={{ opacity: 0, y: p.y }}
-              animate={isInView ? { opacity: 1, y: p.y - 12 } : {}}
+              animate={isInView ? { opacity: 1, y: p.y - 14 } : {}}
               transition={{ duration: 0.5, delay: 0.5 + i * 0.15 }}
             >
               {p.label}
