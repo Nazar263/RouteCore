@@ -19,7 +19,7 @@ export default function FloatingCTA() {
     <AnimatePresence>
       {visible && (
         <motion.a
-          href="https://t.me/RouteCore_1"
+          href="https://t.me/route_core"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0.8, y: 20 }}

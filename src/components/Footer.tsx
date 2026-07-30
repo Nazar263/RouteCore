@@ -25,7 +25,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://t.me/RouteCore_1"
+              href="https://t.me/route_core"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-white/40 hover:text-primary transition-colors duration-300"

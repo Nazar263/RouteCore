@@ -4,11 +4,13 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const dataPoints = [
-  { year: "2020", value: 8, label: "5" },
-  { year: "2021", value: 22, label: "12" },
-  { year: "2022", value: 40, label: "25" },
-  { year: "2023", value: 62, label: "38" },
-  { year: "2024", value: 85, label: "50+" },
+  { year: "2020", value: 5, label: "3" },
+  { year: "2021", value: 15, label: "8" },
+  { year: "2022", value: 30, label: "18" },
+  { year: "2023", value: 50, label: "30" },
+  { year: "2024", value: 72, label: "45" },
+  { year: "2025", value: 90, label: "60+" },
+  { year: "2026", value: 100, label: "75+" },
 ];
 
 export default function GrowthChart() {
@@ -16,7 +18,7 @@ export default function GrowthChart() {
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   const width = 400;
-  const height = 220;
+  const height = 380;
   const padding = { top: 20, right: 20, bottom: 40, left: 10 };
   const chartW = width - padding.left - padding.right;
   const chartH = height - padding.top - padding.bottom;
@@ -37,7 +39,7 @@ export default function GrowthChart() {
       <svg
         viewBox={`0 0 ${width} ${height}`}
         className="w-full h-auto"
-        style={{ maxHeight: "220px" }}
+        style={{ maxHeight: "380px" }}
       >
         <defs>
           <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">

@@ -119,7 +119,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row sm:flex-wrap items-start sm:items-center gap-4"
             >
               <a
-                href="https://t.me/RouteCore_1"
+                href="https://t.me/route_core"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-7 sm:px-8 py-3.5 sm:py-4 btn-primary text-white font-bold text-sm sm:text-base rounded-xl sm:rounded-2xl"

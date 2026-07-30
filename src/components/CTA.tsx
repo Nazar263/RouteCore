@@ -30,7 +30,7 @@ export default function CTA() {
             {t("subtitle")}
           </p>
           <motion.a
-            href="https://t.me/RouteCore_1"
+            href="https://t.me/route_core"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
