@@ -18,7 +18,7 @@ export default function GrowthChart() {
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   const width = 400;
-  const height = 380;
+  const height = 520;
   const padding = { top: 20, right: 20, bottom: 40, left: 10 };
   const chartW = width - padding.left - padding.right;
   const chartH = height - padding.top - padding.bottom;
@@ -39,7 +39,7 @@ export default function GrowthChart() {
       <svg
         viewBox={`0 0 ${width} ${height}`}
         className="w-full h-auto"
-        style={{ maxHeight: "380px" }}
+        style={{ maxHeight: "520px" }}
       >
         <defs>
           <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
